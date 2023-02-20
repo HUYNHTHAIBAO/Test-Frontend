@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Brand Name</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="header-logo">
+          <svg
+            width="184"
+            height="73"
+            viewBox="0 0 184 73"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="184" height="73" fill="url(#pattern0)" />
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use
+                  xlink:href="#image0_1_363"
+                  transform="matrix(0.00299401 0 0 0.00754655 0 -0.254655)"
+                />
+              </pattern>
+              <image
+                id="image0_1_363"
+                width="334"
+                height="200"
+                xlink:href="data:image/jpeg;base64,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"
+              />
+            </defs>
+          </svg>
+        </div>
+        <div class="header-menu">
+          <i class="fa-solid fa-bars menu-toggle"></i>
+          <ul class="menu">
+            <div class="menu-heading">
+              <span>Menu</span>
+              <i class="fa-solid fa-x menu-close menu-icon"></i>
+            </div>
+            <li class="menu-items">
+              <a href="" class="menu-link">Home</a>
+            </li>
+            <li class="menu-items">
+              <a href="" class="menu-link">Product</a>
+            </li>
+            <li class="menu-items">
+              <a href="" class="menu-link">Services</a>
+            </li>
+            <li class="menu-items">
+              <a href="" class="menu-link">Blog</a>
+            </li>
+            <li class="menu-items">
+              <a href="" class="menu-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- banner -->
+      <section class="banner">
+        <div class="banner-list">
+          <div class="banner-items">
+            <img
+              src="https://thumbs.dreamstime.com/b/empty-smartphone-hand-colored-blue-banner-background-mockup-phone-blank-screen-minimal-high-quality-photo-225053370.jpg"
+              alt=""
+              class="banner-img"
+            />
+          </div>
+          <div class="banner-items">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/002/901/955/non_2x/hand-holding-smartphone-with-blank-screen-isolated-on-blue-banner-background-free-photo.jpg"
+              alt=""
+              class="banner-img"
+            />
+          </div>
+          <div class="banner-items">
+            <img
+              src="https://thumbs.dreamstime.com/b/smartphone-headphones-office-accessories-yellow-background-modern-lifestyle-business-flat-lay-banner-copy-space-176172776.jpg"
+              alt=""
+              class="banner-img"
+            />
+          </div>
+          <div class="banner-items">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/002/901/604/large_2x/hands-using-smartphone-on-orange-banner-background-free-photo.jpg"
+              alt=""
+              class="banner-img"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- video -->
+      <section class="video">
+        <div class="video-main">
+          <iframe
+            src="https://www.youtube.com/embed/LXb3EKWsInQ"
+            title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!-- customers -->
+      <section class="customers">
+        <div class="container">
+          <div class="customers-main">
+            <img src="./asset/img/dup-smarphone.png" alt="" />
+            <div class="customers-content">
+              <h2 class="customers-heading">Apps for customers</h2>
+              <p class="customer-text">
+                The general idea behind "diversification" is to provide a
+                Service ecosystem that fully caters to all customer needs from
+                the smallest needs
+              </p>
+              <div class="customers-content-list">
+                <img
+                  src="./asset/img/ch-play.png"
+                  alt=""
+                  class="customers-content__img"
+                />
+                <img
+                  src="./asset/img/apple-store.png"
+                  alt=""
+                  class="customers-content__img"
+                />
+              </div>
+              <a href="" class="customers-button"
+                >See more <i class="fa-solid fa-caret-down"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- outstanding -->
+      <section class="outstanding">
+        <h2 class="outstanding-heading">
+          Outstanding features of the Client App
+        </h2>
+        <div class="outstanding-main">
+          <div class="outstanding-image">
+            <img src="./asset/img/iPhone.png" alt="" />
+          </div>
+          <div class="outstanding-content">
+            <div class="outstanding-list">
+              <div class="outstanding-items">
+                <div class="outstanding-item__left">
+                  <span class="outstanding-number">1</span>
+                  <img src="./asset/img/Arrow.png" alt="" />
+                </div>
+                <div class="outstanding-item__right">
+                  <p class="outstanding-text">
+                    Search service in just one button
+                  </p>
+                  <p class="outstanding-desc">
+                    Enjoy convenience in just one app.
+                  </p>
+                </div>
+              </div>
+              <div class="outstanding-items">
+                <div class="outstanding-item__left">
+                  <span class="outstanding-number">2</span>
+                  <img src="./asset/img/Arrow.png" alt="" />
+                </div>
+                <div class="outstanding-item__right">
+                  <p class="outstanding-text">Connecting diverse information</p>
+                  <p class="outstanding-desc">
+                    Not only chat now you can voice chat and make calls to
+                    quickly connect with the performer
+                  </p>
+                </div>
+              </div>
+              <div class="outstanding-items">
+                <div class="outstanding-item__left">
+                  <span class="outstanding-number">3</span>
+                  <img src="./asset/img/Arrow.png" alt="" />
+                </div>
+                <div class="outstanding-item__right">
+                  <p class="outstanding-text">Update status service</p>
+                  <p class="outstanding-desc">
+                    You can know the status of repair or work completed while
+                    away from home.
+                  </p>
+                </div>
+              </div>
+              <div class="outstanding-items">
+                <div class="outstanding-item__left">
+                  <span class="outstanding-number">4</span>
+                </div>
+                <div class="outstanding-item__right">
+                  <p class="outstanding-text">
+                    Complete safe and quality service
+                  </p>
+                  <p class="outstanding-desc">
+                    You will feel secure when you see the report image and
+                    easily evaluate quality service whenever
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features -->
+      <section class="features">
+        <div class="container">
+          <div class="features-main">
+            <div class="features-list__business">
+              <div class="features-content">
+                <h2 class="features-heading">Apps for Business</h2>
+                <p class="features-text">
+                  One of the advantages of Multi-Industry Services is that it
+                  helps reduce the impact of unexpected fluctuations in any one
+                  industry. Bringing diverse consumers to businesses
+                </p>
+                <div class="features-content-list">
+                  <img
+                    src="./asset/img/ch-play.png"
+                    alt=""
+                    class="features-content__img"
+                  />
+                  <img
+                    src="./asset/img/apple-store.png"
+                    alt=""
+                    class="features-content__img"
+                  />
+                </div>
+                <a href="" class="features-button"
+                  >See more <i class="fa-solid fa-caret-down"></i
+                ></a>
+              </div>
+              <div class="features-image">
+                <img src="./asset/img/dup-smarphone.png" alt="" />
+              </div>
+            </div>
+            <div class="features-list__managers">
+              <div class="features-content">
+                <h2 class="features-heading">Apps for Managers</h2>
+                <p class="features-text">
+                  Each branch of service provides is independent of the other
+                  business areas, but the activities of the services will be
+                  reported to senior management of the company that owns the
+                  application.
+                </p>
+                <div class="features-content-list">
+                  <img
+                    src="./asset/img/ch-play.png"
+                    alt=""
+                    class="features-content__img"
+                  />
+                  <img
+                    src="./asset/img/apple-store.png"
+                    alt=""
+                    class="features-content__img"
+                  />
+                </div>
+                <a href="" class="features-button"
+                  >See more <i class="fa-solid fa-caret-down"></i
+                ></a>
+              </div>
+              <div class="features-image">
+                <img src="./asset/img/laptop.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- why -->
+      <section class="why">
+        <div class="container">
+          <h2 class="why-heading">Why choose us</h2>
+          <p class="why-desc">
+            Modern consumer trends: Focus on top-selected services. Changing
+            business models to adapt to new consumer trends: Applying the latest
+            technology
+          </p>
+          <div class="why-list">
+            <div class="why-items">
+              <img src="./asset/img/why-1.png" alt="" />
+              <p class="why-text">Professional</p>
+            </div>
+            <div class="why-items">
+              <img src="./asset/img/why-2.png" alt="" />
+              <p class="why-text">Fast</p>
+            </div>
+            <div class="why-items">
+              <img src="./asset/img/why-3.png" alt="" />
+              <p class="why-text">Multi service</p>
+            </div>
+            <div class="why-items">
+              <img src="./asset/img/why-4.png" alt="" />
+              <p class="why-text">Safety, quality</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="container">
+          <h2 class="service-heading">Learn more about the service</h2>
+          <div class="service-list">
+            <div class="service-items">
+              <img src="./asset/img/service-1.png" alt="" />
+              <p class="service-items__title">Cleaning</p>
+              <p class="service-item__text">
+                Experience ...
+              </p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+            <div class="service-items">
+              <img src="./asset/img/service-2.png" alt="" />
+              <p class="service-items__title">Appliances</p>
+              <p class="service-item__text">Experience ...</p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+            <div class="service-items">
+              <img src="./asset/img/service-3.png" alt="" />
+              <p class="service-items__title">Household</p>
+              <p class="service-item__text">Experience ...</p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+            <div class="service-items">
+              <img src="./asset/img/service-4.png" alt="" />
+              <p class="service-items__title">Electronic</p>
+              <p class="service-item__text">Experience ...</p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+            <div class="service-items">
+              <img src="./asset/img/service-1.png" alt="" />
+              <p class="service-items__title">Cleaning</p>
+              <p class="service-item__text">
+                Experience ...
+              </p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+            <div class="service-items">
+              <img src="./asset/img/service-2.png" alt="" />
+              <p class="service-items__title">Appliances</p>
+              <p class="service-item__text">Experience ...</p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+            <div class="service-items">
+              <img src="./asset/img/service-3.png" alt="" />
+              <p class="service-items__title">Household</p>
+              <p class="service-item__text">Experience ...</p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+            <div class="service-items">
+              <img src="./asset/img/service-4.png" alt="" />
+              <p class="service-items__title">Electronic</p>
+              <p class="service-item__text">Experience ...</p>
+              <a href="" class="service-button">Tìm hiểu thêm</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="businesses">
+        <div class="container">
+          <h2 class="businesses-heading">Top businesses</h2>
+          <p class="businesses-text">
+            Accompanying the application is indispensable for businesses that
+            play a great role and contribute to the ecosystem. The same goal
+            becomes the spearhead in some areas.
+          </p>
+          <div class="businesses-list">
+            <div class="businesses-items">
+              <img src="./asset/img/businesses-1.png" alt="" />
+            </div>
+            <div class="businesses-items">
+              <img src="./asset/img/businesses-2.png" alt="" />
+            </div>
+            <div class="businesses-items">
+              <img src="./asset/img/businesses-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container">
+          <h2 class="feedback-heading">Business Feedback</h2>
+          <p class="feedback-text">
+            Sharing from associates experience with iService
+          </p>
+          <div class="feedback-list">
+            <div class="feedback-items">
+              <div class="feedback-header">
+                <img src="./asset/img/feedback-1.png" alt="" />
+                <div class="feedback-header__list">
+                  <span class="feedback-header__title">John K.</span>
+                  <span class="feedback-header__text">La pasteria</span>
+                </div>
+              </div>
+              <div class="feedback-rating">
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+              </div>
+              <p class="feedback-header__desc">
+                The reports and orders for each service are very specific. Is an
+                application worth sustainable cooperation.
+              </p>
+            </div>
+            <div class="feedback-items">
+              <div class="feedback-header">
+                <img src="./asset/img/feedback-1.png" alt="" />
+                <div class="feedback-header__list">
+                  <span class="feedback-header__title">La pasteria</span>
+                  <span class="feedback-header__text">La pasteria</span>
+                </div>
+              </div>
+              <div class="feedback-rating">
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-2.png" alt="" />
+              </div>
+              <p class="feedback-header__desc">
+                The reports and orders for each service are very specific. Is an
+                application worth sustainable cooperation.
+              </p>
+            </div>
+            <div class="feedback-items">
+              <div class="feedback-header">
+                <img src="./asset/img/feedback-1.png" alt="" />
+                <div class="feedback-header__list">
+                  <span class="feedback-header__title">La pasteria</span>
+                  <span class="feedback-header__text">La pasteria</span>
+                </div>
+              </div>
+              <div class="feedback-rating">
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+                <img src="./asset/img/Star-1.png" alt="" />
+              </div>
+              <p class="feedback-header__desc">
+                The reports and orders for each service are very specific. Is an
+                application worth sustainable cooperation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="contact-main">
+            <div class="contact-list">
+              <div class="contact-content">
+                <h2 class="contact-heading">Contact us</h2>
+                <p class="contact-text">
+                  Please connect with us for answers and service experience
+                  completely and completely.
+                </p>
+              </div>
+              <div class="contact-form">
+                <input type="text" class="contact-input" placeholder="Enter your email for consultation"/>
+                <button class="contact-button">Đăng Ký</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-list">
+                <div class="footer-items">
+                    <h2 class="footer-heading">Brandname</h2>
+                    <p class="footer-text">Follow us:</p>
+                    <div class="footer-actions">
+                        <img src="./asset/img/footer-1.png" alt="">
+                        <img src="./asset/img/footer-2.png" alt="">
+                        <img src="./asset/img/footer-3.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-items">
+                    <p class="footer-title">Home</p>
+                    <span class="footer-desc">About us</span>
+                    <span class="footer-desc">Intro</span>
+                    <span class="footer-desc">Features</span>
+                    <span class="footer-desc">Pricing</span>
+                </div>
+                <div class="footer-items">
+                    <p class="footer-title">Suppor</p>
+                    <span class="footer-desc">Shipping & Returns</span>
+                    <span class="footer-desc">Contact Us</span>
+                    <span class="footer-desc">Our Partners</span>
+                </div>
+                <div class="footer-items">
+                    <p class="footer-title">Resources</p>
+                    <span class="footer-desc">Our Work</span>
+                    <span class="footer-desc">Servicrs</span>
+                    <span class="footer-desc">FAQ</span>
+                </div>
+                <div class="footer-items">
+                    <p class="footer-title">Contact us</p>
+                    <span class="footer-desc">About Us</span>
+                    <span class="footer-desc">Menu</span>
+                    <span class="footer-desc">Contact</span>
+                </div>
+            </div>
+            <p class="footer-copy">(c) 2023 - Delicious, All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./asset/js/app.js"></script>
+  </body>
+</html>
